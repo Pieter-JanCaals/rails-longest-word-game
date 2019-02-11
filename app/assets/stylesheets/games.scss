@@ -1,0 +1,21 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$blue: #447EDC;
+$white: rgb(230, 230, 230);
+
+.list {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.item {
+  background: $blue;
+  color: $white;
+  display: inline;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
